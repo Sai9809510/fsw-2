@@ -1,0 +1,144 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+/* #header{
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #E6D1AB;
+} */
+#fakeheader{
+    height: 15%;
+    width: 100%;
+}
+ .navbar{
+    background-color: #1f1f22;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+ }
+ .navbar ul{
+    overflow: auto;
+ }
+ .navbar li{
+    float: left;
+    list-style: none;
+    margin: 20px 30px;
+ }
+ .navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    color: white;
+ }
+ .navbar img{
+    height: 75px;
+    margin: 10px;
+ }
+#page1{
+    height: 85%;
+    width: 100%;
+    background-color:#0E0E0E;
+}
+#box{
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+#box1{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+}
+#box1 img{
+    margin: 30px;
+    height: 100%;
+    width: 100%;
+}
+#box2{
+    height: 100%;
+    width: 50%;
+}
+#event{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#about{
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer a{
+    margin-top: 50px;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    color: white;
+}
+#footer img{
+    margin-top: 50px;
+}
+#page2{
+    height: 85%;
+    width: 100%;
+    background-color: #0E0E0E;
+}
+#boxinp2{
+    height: 45%;
+    width: 100%;
+    display: flex;
+}
+.b{
+    border: 2px white solid;
+    margin: 20px;
+    height: 100%;
+    width: 25%;
+    object-fit: cover;
+}
+.b img{
+    height: 100%;
+    width: 100%;
+}
+#register{
+    margin: 100px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

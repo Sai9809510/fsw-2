@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSW assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <!-- <div id="header">
+        </div> -->
+        <nav class="navbar">
+            <h1>FSW</h1>
+            <ul>
+                <li><a href="https://youtu.be/1vOdWyba8nU?si=xIlLbPh-oKNLGeH7"><b>Home</b></a></li>
+                <li><a href="https://youtu.be/_tBZM1sNT9M?si=sukSK-8sE7j-Kr74"><b>Event</b></a></li>
+                <li><a href=""><b>About us</b></a></li>
+                <li><a href=""><b>Contact</b></a></li>
+                <li><a href="">Login</a></li>
+            </ul>
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEA8RERAVEBAVEhIXGBIVEA8QEBAVFRcWFhcVGBgYHSggGBomHRUWIzEhJiorLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGy0fHyUrLS0tLS0tLS0tLS0tKy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAMgAyAMBEQACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABQYBAwQHAgj/xABIEAABAwIDBAQJCAcHBQAAAAABAAIDBBEFEiETFDFBBgciUSMlMlJhcYGR0RUkMzRTobGzFzVzdJKT0ghCQ1VyssEWRGKU8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAgMFBAb/xAAyEQEAAQMCBAQFAwQDAQAAAAAAAQIDERIhBAUTMSIyQVEUFTNhcSNSoSRCscEGU4E0/9oADAMBAAIRAxEAPwD3FAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBBhBDf8AUtNu81TmOyie5rjlN7tNjYc9VTX6t/hq9Wj1b5cahbJTRknNOHFmhsQBmN+7QqdW8IixVMTV7MR45A41QBPzf6TsnTTNp3pq3k6FURE+7UekdOIqaUk5KhzWx9k3Jdwv3KNafhq8zHs6GYvEah9Nc7VkYeRY2ynTiralZs1aYq9Jcg6T027GqzO2IeWXym982Xh61XXtlf4WvXo9XZJi0QnigJO0kY57RY2s219fapmreIVixVpmr2am49AW1TwTlp3OEmh0LRmNu/RNXc6FWY+4/HYAKVxJtUFoj0OpcMwv3aJqIsVb/ZtjxeJ000AJzxNa52hsA7Ua+xIqjOETZqimKvdyHpNTbsyqzHZPeGA5Te5dl4esKIrjGVvhq9ej1TQKuwZQEBAQEBAQEBAQEBB8PcBzsonsmmJeWtcPkbERcfWZOY+0avN/ZLu6aviqfx/pMVrxvuCaj6KTmPs2q096WNumeld29WuleL9INRqTzH2ZSO9RVTOLMYcEzhuOBaj6xDzHpUf2w1imerc29I/wmoXj5aqtR9TZzHeFaJ8UvNNM/D0bev8AtXWOHyFILj6yeY+1CzjyPXpn4vt6LJVPHyrh+o+rS8x6FpnNcPJET0Lm3qjKZ43bH9R9NPzHmBVz5mk0zqtbNlU8bLo/qPpIuY+zU58qKaZ/V2dtG8fKWK6j6CLmPNKmJjXUrVE9C3t6q9I4fIlHqPrTOY+0cqziKHqiJni529HqcTgQLG+g5helwqomJbEVEBAQEBAQEBAQYJsoI+z4MrfOHvCbLRRV7PPMHwoYvJVT1MshYyZ8ccbXlrGtbbXTiVhERW6967PCxTTRG6S/RpQWt4Sx5bQ2Kt0KWM81vZZPVrQ6ay6cPCnRR0KUfNbwOrSh11l14+FOqdCk+a3mir6vsNiYXvdI1jdfpDp6lejhdc6YUuc4u241SqdTglO9zjBFJl4Z3Sm5XWo5Tap887uTX/yW/V5I2aKLDKMHLLHIWX1yykW9h4q9zktGM0Spb/5Tf1+Jc6PoFh0zWyMfK4EaHam49HoXHucLFE4nu7FvnNyuM0t/6NaHXWXXj4Q6+vvWfQoa/NLzJ6t6HTWTTh4Q6epOhTCI5peZHVvQ3JvLc8TtDcp0KT5pefP6NaG1vCW7tobe5OhSfNLyOxnAxhRhqaWWQDasa9jnlzHtcQOfrUTRpnMS2s3/AImJouQ9AEre8e8LbVEzs5M0Vez7aQeCtCsxuygygICAgICAgiukew3aTeM2x0zZc+biLWy68VSttw/U1+DuoROBd8/vqlhOj1dePi8x2S/VNl3aoyXyby/Le98tm24q1jGHn5rnqRlel6HJ+4iRBSunNSXSwQXs0kE+02XX5dbjTNeHF5ldqzFESrU0MsrXyNadjH/CBw9q6VFduiYiZ3lzaqK64z6O+KjozGC7bC4F39mwvztxsubPMqou9OJ39nro4S3o1Sluj84onlskgNPI3Mx+uUkfgVHExPERmmN47t+Er+HnFU7St9NVMkF2ODh3g3XLroqpneHWouU1dpblVcRIgp3WmRuIzeTtYr99swvb2LC/2dPlX1lcBwGwuZ+HfVKkdPD11fF/Zfei27bszdc2xu62bPmvc38rVb0S5PE6+p4+6XV3nZQEBAQEBAQceKPlETjCxskulmudlafWVFTS3jV4pwrhq8XsfmVP/OKymavZ7aaOHzvXLm6qy7YVWYAO3qS4HAGzbhRYX5p54XdbuWyiFb6U9It2tHGAZSL68Ghe/guDm9vPZz+N43o7QoFdXSTuzyOzO4ctB7F9Das0Wo00vnr16qurNSboKp+4SNab2kAcCL2Y4W/FcnjKYovap9nR4euarOIbWYWATdzjeO17CwHCy+Fq57NVyMU+v+3Zjl9MU92uronNw9hJDhtMzTcaNI+K+74W9FV6J7bONftzFlHYBij6eZrgewSA5vIg6L3cXw1Nyjbu8vCcRVRXmez1VjgQCOC+WmMTiX1NNUVRmH2iwgp3Wffc2ZRd23isDwJzCwKxv+V0uV46u7DKvF7D5lT8B/jJE1eyZp4fPnlY8IkmdE0zxtjl1u1jszR3arSl4LsU6vDOXerMxAQEBAQEBBHY81hgkD5zTN0vKHBhbqOZ4KtTWxM69oyppgpNfHkv/sxrGdPu6UTXmP03T1TgbvU2dnG8yWceLhZuqmwpzTzwvS3cpgp6no8w6Yh2+S3/APG3qsF9Ly6Y6MYfMcxz1pyhF0O7wO3C8RdA4kAOaRZzD5LgvNxPDU3oxL0WOIm1OyWkxqnIJDZg4jyQ8ZASuDHILUVZxDpzzPNMoOWqkcxrC4ljb2bfQX196+gosW6J2hyq7tVUYy0LfZjmcLP0NxeRszYXOLmO0sSTlI7u4Lk8w4WjRrju63LuJr16J7PRFwH0IgpvWiBuQuco20V3c29oarC/5XS5ZM9ZFNho7Dx5KNB/3LVWNPu3q15+mufR0MFO3Z1Bqm3PhXODy7XhcLahzL+de8YSauwZRIgICAgICCOx1+WCQ7A1PDwIAOfUd+irVP2a2YzVGZwprqvT9Qu/hi+CxmZ/a6UU77XXV1Tn5vU9nJ85k7HmaN0U2OynNPPH4XlbuUIlAdJej4qgHNOWUDQ8iO4r2cJxc2Z+zwcZwcXYU6borVtv2AQOYcLLsxzGzMbS488uvR6JWlwunY1sRAe8hrpH6Extd3D/AO4rxXOJuVzqjaPR67fDW6Y0zvLfLhsQlBETNmMwyWPayua25Pfqs6OIuTTiZ3Xq4e3FWYjZ8VeG0uZ0OUMzkiOTmHji30hWt8RdjFecouWLU+GIVtuESE2BYTyG1jBNtOBK6Px9v1l4Pl9ye0LX0W6MvieJpSMwHZaCDa/M8lzeN46LsaaXR4HgJtzqqXBcp2BBS+tN9qNvZzeGi7Pna3ssL8+F0uVx+r3RzKvQeIHcPNi+CrmceVvNFOfrLj0efmgad2NLx8EQ0Fuvo0W9LmcRERXtVn7pNWYsoCAgICAgIODGGSOheIpRA/S0jgHBuo5FVqy1szTFUaoyqzqTEbHxtD/Ki+KyxV7uhFdnP0pY6qgdhU5nZnbzJdwtZxs25CWOyOaeePwvK3cphEtVXVRxML5HtjYOLnENaPWSgr2JdMsP2UmSsge/KbN28ep96vaxq3ZXYnRsizjuHvp7trKaKodG1riZmHQcuK3i7FNeJ3iHm6E1UZjaW2mxulkqIYmVNPIHMIOWZpc6RxB0F9dWhTFynEz6k2qsxCvVLZa2eamkqBFSU0rtpOwASySO7RiYeXHW3esOI4qmjeNoejhuEqrx6ykY+jGCtZlNG8i30xExf68wPFc+eOpn8OhHBVf+lDUyYVNAGzuqsLneGNL3Z5KSR3kjNzYfSvTRcprjMSwrommcTG70UFXUZQUvrTB3SOxynbxWPIG+hWF/Ol0uWfUaW0eI2HjeLh9lF8UxVju1qrsZ+lK04HHK2FommbUP18I1oaD7AtaHNvzTNe0Y+yQVmTKAgICAgICCJ6S7DdpN4Y6SHTM1ocXHUW0HpVK8eraxr1xp7qA5+B2+p1H8ub+pYYodemOL94TXVLl3aoyAhm8vsDxAs2yvY8rz81z1IyvS3cllEvGv7R1U9sFFGHEMfI8uAOjsoFr+9Bpw/qOpJIIZXVkrS+NjyMrLDM0H/lBsHUbQ3Dd/kueWWPVRlGUjgXVVRYbVRVO9ve6M3DHNZY305a801ImuIS/V/RNlpakGwqG1lVdxGYtc55INj6LLK9a1w3s3dO/okRSS7TJecG9toXtLfXkv5K5vTmK9L39SjRq/hx9YtIyLDJWgDavkhAIFi+XO0AgDmulatRRDn3LuuV1pQQxl+OUX9dlszbUFJ61y3c2ZgS3bR3A4kX1WF+Y0unyrPVVwSYJYXoqjh5kv9Sp4PZ7KviveHoHRM0+6s3aN0UN3Wa8ODr31Oq3ox6ORxOvXOvumFd52UBAQEBAQEHFiu32T93DDLpYSEhnHnZVqz6NLWNUauytGTGrfQ0n8T1nMV+z3RHDfun+WnqqzbvVZ7Z96kvbhms29lFjyrc0x1IXdbuWyg8U/tJeRh3+uX8GoPSMPfmpqVpNmNpoXkWJL8rRcceGgVZllV3b3iw1EbLkOy5i1w7jcc1VWrOCmBkcQxzLAgvGsjnX9JSN0U5mdlJrq2vhxeaTD6GSSAtAnDhs45Xt0zRl3961vWtIh6Nku3pnEJC84dWioLcpZsCeHpva3pVIt0xVq9V5uVzRp9GygwurxCpjqq6Pd6eE5oaTMHOLuUkh4X9Cuou6AgpfWnfdI8ts23itfhe+l1jfmdLp8rx1WGPxuw8FScPOkURr9k1Rw2fNP8rNg5qNk3eQxsutxGSWW5cVtTn1eC9p1To3h3KWLKJEBAQEBAQRXSTZbtJtpXQR6XkY4tc3XkQq1Rs2satcad5UEjCv81qf5z/6V5/D7uvT8T+2E31UBu6zZSXN3iSzjxcNLE+xXseV5ua/Uhd1u5bKDxT+0l5GHf65fwag9Lw2ItpqV4GYGnga4ZSTlyC9retUlnVS27fTK2QnUANyNEhvw1dy9NlCmZfO2dG65kazUZg9rM5HoLfKSCJmJTbHAgEK+W0Tl5R1947VUcVHu074c7pA7IbFwAbb/AJUpejdG5HOo6VziXOMMZJJuSS0aoJNAQUnrWtubMxsNtHcjiBfUhYX48Lqcqz1dkCxuE2HjWpGn2z/6VSNPu9UxxP7YXzotsd2ZsJnTx3daR7i9xN9Rcr0UuRxGrXOqMSl1ZgygICAgICAgj8be9sEhZBvLtLREtAdqO/RVq/DWzETVGZwp5rKr/I2++H4LHNX7XSi3a/7XV1V33ae7ch3mXs+bw0U2PKz5r9SF1W7mMoPzb16dLGVlWymiHYpnPBcf7zzYED0CyCJp+trF42MY2doa1oaBs2aBosPwQd2G9ZuPVMgigeJZCDZrYWFxtqmDEJSs6S9KWsc6WBwjaCXF1PHlAGuqjCJiJQI64MYH+O3+UxSnCC6UdM63EhGKqQPEZJbZoba9r8PUg/RHVJ0rjxChY0DLLA1kb28tB2XD0G33ILygIKV1qE7nHYZjt4uz52vD2rC/5XT5XjquNlZVWHiNnDvi+CiJq/a1qt2s/Vlb8Ake6BpfTildr4IFpDdfRotqHNvxEV7Tn7pFWYMokQEBAQEBBH40xzoHhs+7O08LZpyajv0UVNbMxFUZjKouo59fHg/hh+KwxV+50Yroz9J09VgIpZ7uzneJe153DVTY8qnNJ/UhdVu5gg8z6Q9TVDV1EtRtpYnSOLnNblLcx4nVBBYl1MYXTND56+SJl7ZnZALngFWqqKRqoeq/CAHzRYq8bOxc9rmNyX0GvJV6tM+qcOmToHh74XPdjc7oc2QkzAsuf7pU9SEYaP0PYVtWw/KD9s5uZrOxnc3je3co6ke6cPvD+pjC6jOYa+STK7K7LkOUjkfSrRXFWxh6F0H6FU+ExSMgLnmRwLnuIubaAacOP3qyFnQEFK61B8zj1y+Hj7Xm68Vhf8rp8r+q5Y6OosPHjeHdD8Uimf3NKq7efpLbgMbmwND6jena+Fs0X92i1pc6/MTVtGPskVZgyiRAQEBAQEEX0jEe7SbWF1RHpeJrS9ztRwCrU2sZ1xpnCiEYbY+Jqj+Q/wCKwxHs6sTf/wCyP4S3VQ8GmnDW5Wipks08WjQ2+9WseVhzSP1IXlbuWICCpdZv6vda2ba09r8L7Vn3LC9jSmHBjmF3pg6fYQTvmp8rmB7oZCx12Nffl8V5Io8OVsuB9OZxisL4om1LYYX54XOMT8uZzNDwcMv3qcSlGNxQSTx4v/hROhgPcGvju/3PcPcqbi89AabLRskcLPmc+V2n2hLh91l6eHpnzKysq9aogIKT1rW3NlxmG3juBxIvwWF/yunyr6uyFaMMsPE9Rw+wf8VXb2emar+fPH8Lz0Y2W7M2MDqeO7rRvYWOGvMLelyuI1a51TmUsrPOyiRAQEBAQEBBghE5efYfUVGFS1UbqSWeGSV0jJIm5vK5HuK88eF1rlNHFU0zFWJbv0lw5HP3WfI02LsgytPCxN+KnrHymrONT7PWNHdjd0qA54u0ZBd47xrqnWV+V1bzq7MDrIi7fzSo7HldjyP9WuidYnlVW2/dw4r00oqqONs9DNJE5wLA6MFrncra6lUruUzGMJjlVWe7bP0zpZGGlfh872hovEYgbNFraE8FEVUxGnB8sqxnU5sL6Y0FNG50FBLHE51nObGMpPCxN9VWiaI3wmeV1505B0moRGaQYZLs5Lu2OxFn3OYnLz4JqpjbCPllWM6nbB1iQtY4No5wyIZTZgtHbkddFpRXTTT2T8rnPm7th6yYxkO51Fn+T2B27+brqp68eyI5VO/i7A6xmFzm7nUZmi7m5Bdo7yL6KYv7nyucROp8/pMhyCTdZ9mTYPyjKT3Xva6iL+x8pqzp1NWJV02Kup4Y6SWGJsrJHyytyABpvYd5SZmpNu3TwsTVNWZegNFrLeIcmZzu+lKBAQEBAQEBAQEBB8uGiT2TDysDxNiX7y/8xq8sx4JdzP8AU07+iarPruB/spPy2q391LGif0bs/dqpR2ukHt/LKR5qiqfDZcE4+YYD+8Q/iVXG0S2if1bv4j/CbgHjqr/c2/iFeI8cvNP/AM1H5/2rcf6ik/eT+aFTfQ9ef6v/AMWSq/W2Hfu0iv8A30vJH0Ln5RlN9W6Q/tp/9ijG1TWZ8Vptqfouj37SL8tMREUopn6zto/1niv7CL/aUiPHUpVM9G3+VclHiOk/emfmOVZ8j1av6ufw9WjGg9QXpiHBq3mX0VKrKJEBAQEBAQEBAQEGEEacDptlJBshspHFzm62c4m5PvCrpbde5q153bn4ZCXwyGMZ4gQw69gEWNvYmlWLteJjPfuw3CoAZ7Rjw30nHt6ZdfYmkm7Vtv27NZwSnLIY9kMkLmujGvYLeBTSt168zOe7c3DohK6bINq5gaX63LRyU6VZuVaYpzs0DAqbYmn2Q2Jdmya2vfNf3qNCevXq1Z3dDsPiMkcpYDIxpa13NrTxH3KcI6tWmYztLW3CIA2dojGWYkyDXtlwsbqNKetXtv27MuwmAiAGMWhIMY17BAsLexNKIu1b79+76Zh0QkklDAJJGgPdzcG6BNJ1atMRnaHOcCpti2DZDYtcHBmtg4HNf3qdKYv16tWd0mApZMoCAgICAgICAgICAgwgICAgICAiBEiAgICDKAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICD//2Q==" alt="">
+        </nav>
+        <div id="fakeheader"></div>
+        <div id="page1">
+            <div id="box">
+                <div id="box1">
+                    <img src="Screenshot 2024-09-28 213733.png" alt="">
+                </div>
+                <div id="box2">
+                    <div id="event">
+                        <ul>
+                            <h1>Events</h1>
+                            <li>Vivitsu</li>
+                            <li>cyber boom</li>
+                            <li>Tech bola</li>
+                        </ul>
+                    </div>
+                    <div id="about">
+                        <h3>
+                            The Free Software Wing (FSW) at GRIET (Gokaraju Rangaraju Institute of Engineering and Technology) promotes the use and development of open-source software among students. It focuses on providing a platform for students to explore, contribute, and collaborate on free software projects. The FSW conducts workshops, seminars, and coding sessions, encouraging students to embrace a culture of knowledge sharing and innovation. By fostering a strong community around open-source initiatives, the Free Software Wing helps students develop technical skills, contribute to real-world projects, and better understand the ethical and practical implications of using free software.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                <a href="https://www.instagram.com/fsw_griet?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAABWVBMVEVyHVFHcEx0Fvp8Fv1yFP1/FfyLCOyfBOmtAeS7AuDHAd3UANjZAs7rD6xyFvzjANTqAMHoA7l2F/yPFfx8GPmfD/zFF/XVWujoZuLyZt3pRt/yGdHyA8j1AKTViPj/9Pr////8g9f9A7r3DZz5vO794Pf+ruj9B6uzFPv7JLv+AJr+BI/+YMP/1vD+AIThG+n9GZn/vd3/YZz+AXP+GoT/r8r+AmT/b5z+HHH+I3f+G2P/ur7+FFD+Klb+fYv/wcr+LUf+LWX+AFn+Nzr+Ohz+RT7+inP+Si7/ztD+TxL/zbv+Wy//9fH+WgL+c1X+ZyX+PUv+Bzv+VXD+cxr/6eL+aQT+eAX+nDj+gwD+gxH+fSL+rYn+jwD+iwL+XhX/3rn/1bH9ZR/+lwP+nwH+xHH8ZC3+qAH+sAD+wAP+x1P+zGb+pl79mQn+uAD9J3T+ygD9O1n8pRL9twuaEkMNAAAAc3RSTlMBAF3G///////////GW9j//9nY/1r///////////7//////8b/////////////////////////////////////////////////////////////////////////////////xf///1v////////Y/9j/2VzGSus+GgAAAeNJREFUeAFFjEWiU0EQRc/tqu74V9wZ4TBiB6wG3wpzVoQ7zHCXeELypHH+KVchJAESaEs0IUv0Zv+7fwLgSAOk9ZFghcnfDw4AAg18cyhWCKNVob9NCZjQLWVrEGhJbJGDoCBpMwCrJTETAKBWgdeRGb4dmJW56PdI/KU1K4X15N+AFsW0+3/WVm7Pa0Pmu4Fh7HcbRIjMIhr3FItUGAH4SNZKjK32YjKpK3Iv0yUY0b8g0Vs0oK+8wbeyMBAQwVeo44R1z7XWq6rqpn5jiTmAeQO3iceg9zkYzKvc71iEmMFbqCJJ4tDcKFrLjX5D/MEdq8GpIUUgd/tgGboTgiUDPDZ44SXNpr0gWRcAgqEmEPJRNVPOxYaOth0oAHdCxWoOzslH+RCvlafYMgFUHvAIHoCjz16io80BrH/j0AAcJ9KWKkhn5sRyGjsDtr/sqyrsWNO1cW9/cDNLZgHLSzVvn+wMq9qbKKwy7TiIaKTW56pzW6Oa+N1OKEQdvvl2RyOE4DEOZurd1cHNeab27tyjOPfhFlucXP04ovF97B6jTOzdJwFLaNAff7N6c8incH1VpiSR67q2VgjzUU7JgbMTiQtFKmgAsCAuczlflmVZn7iGBFc1awB/p4tqUS3LDb8OPwBrSrZIO/KHZwAAAABJRU5ErkJggg==" alt="">
+            </div>
+        </div>
+        <div id="page2">
+            <div id="boxinp2">
+                <div class="b">
+                    <img src="Screenshot 2024-09-28 215754.png" alt="">
+                </div>
+                <div class="b">
+                    <img src="Screenshot 2024-09-28 215814.png" alt="">
+                </div>
+                <div class="b">
+                    <img src="Screenshot 2024-09-28 215847.png" alt="">
+                </div>
+                <div class="b">
+                    <img src="Screenshot 2024-09-28 215905.png" alt="">
+                </div>
+            </div>
+            <div id="register">
+                <form action="/action_page.php">
+                    <label for="username">Username:</label><br>
+                    <input type="text" id="username" name="username"><br>
+                    <label for="pwd">Password:</label><br>
+                    <input type="password" id="pwd" name="pwd"><br><br>
+                    <input type="submit" value="Submit">
+                  </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
